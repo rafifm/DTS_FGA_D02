@@ -1,17 +1,27 @@
-/* For Tablet*/
+/* Untuk Tablet*/
 @media all and (max-width: 1000px){
-  /*Produk (rafif) start*/
+  /*Produk (Rafif Musyaffa) start*/
   .products{
     width: 50%;
   }
-  /* Produk (rafif) End */
+  /* Produk (Rafif Musyaffa) End */
 }
-/* For Smartphones */
+/* Untuk Smartphones */
 @media all and (max-width: 670px){
-  /*Produk (rafif) start*/
+  /* Header+about us(Quintan Suri Istiqomah) start */
+  .header-right {
+    display: none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+  /* Header+about us(Quintan Suri Istiqomah) end */
+  /*Produk (Rafif Musyaffa) start*/
   .products{
     width: 100%;
     display: block;
   }
-  /* Produk (rafif) End */
+  /* Produk (Rafif Musyaffa) End */
 }

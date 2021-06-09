@@ -1,4 +1,142 @@
-/*Produk (rafif) start*/
+/* Header+about us (Quintan Suri Istiqomah) start */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #222730;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 161px;
+  margin-top: 1px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 25px 0;
+  display: none;
+}
+
+.about-us{
+    margin:100px 25px;
+    color:rgb(79, 99, 103);
+}
+
+.desc-about h2{
+    color:#4F6367;
+    font-size:35.2px;
+    font-weight:900;
+    margin-bottom:50px;
+}
+
+.desc-about h3{
+    text-align: center;
+    font-weight:normal;
+    font-size:27.2px;
+}
+
+.bold{
+    font-weight:900;
+}
+
+.fa-heart{
+    color:rgb(5, 164, 194);
+    font-size:50px;
+}
+/* Header+about us (Quintan Suri Istiqomah) end */
+/* about us () start */
+
+.top-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(https://images.unsplash.com/photo-1532947913256-91eec0edc198?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=nastya-dulhiier-_FqNEHrxDFM-unsplash.jpg);
+  background-size: cover;
+  color: #fffdf9;
+}
+
+.top-wrapper h1 {
+  padding-left: 25px;
+  font-size: 45px;
+  font-family: 'Lucida Grande';
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  opacity: 1;
+  text-align: left;
+}
+
+.top-wrapper h2 {
+  padding-left: 25px;
+  opacity: 1;
+}
+
+.top-wrapper p {
+  padding-left: 25px;
+  opacity: 1;
+  font-size: 20px;
+  text-align: left;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.buy {
+  padding: 15px 20px;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  background-color: #f38181;
+  margin-top: 30px;
+}
+/* about us () end */
+/*Produk (Rafif Musyaffa) start*/
 .products{
   position: relative;
   width: 25%;
@@ -8,7 +146,7 @@
 
 .product-thumbnail img{
   height: 60vmin;
-  width: 50vmin;
+  width: 100%;
 }
 
 .product-overlay{
@@ -53,4 +191,8 @@
   text-align: center;
 }
 
-/* Produk (rafif) End */
+.product-wrapper h1{
+  color: #00a3c2;
+}
+
+/* Produk (Rafif Musyaffa) End */
