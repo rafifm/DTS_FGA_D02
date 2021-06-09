@@ -166,10 +166,12 @@ header {
 
 .product-overlay:hover{
   opacity: 1;
+  cursor: pointer;
 }
 
 .product-overlay:hover > *{
   transform: translateY(0);
+  cursor: pointer;
 }
 
 .product-overlay > *{
@@ -189,6 +191,7 @@ header {
   padding-right: 5%;
   background-color: white;
   text-align: center;
+  display: inline-block;
 }
 
 .product-wrapper h1{
@@ -196,3 +199,204 @@ header {
 }
 
 /* Produk (Rafif Musyaffa) End */
+
+/** start contact section **/
+.contact {
+  padding-top: 90px;
+}
+
+.contact_bg .titlepage {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.contact_bg .titlepage h2 {
+  padding: 0px;
+  color: #fff;
+}
+.contact_bg {
+ max-width: 677px;
+ margin: 0 auto;
+ text-align: center;
+  padding: 40px 0px 50px 0px;
+}
+.contact_bg .contactus {
+  border: #b1b0b0 solid 1px;
+  padding: 12px 19px;
+  margin-bottom: 15px;
+  border-radius: inherit;
+  color: #000;
+  width: 100%;
+  height: 44px;
+}
+.contact_bg .textarea {
+  margin-bottom: 15px;
+  padding: 15px 19px;
+  color: #000 !important;
+  width: 100%;
+  border: #b1b0b0 solid 1px;
+  border-radius: inherit;
+}
+.contact_bg .send {
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  max-width: 171px;
+  width: 100%;
+  padding: 11px 0px;
+  transition: all 0.3s ease-in;
+  border-radius: 30px;
+}
+.contact_bg .send:hover {
+  background-color: #0fb0d3;
+
+color: #fff;
+transition: all 0.3s ease-in;
+
+}
+/** end contact section **/
+
+/** footer **/
+.footer {
+  background: #161616;
+  margin-top: 90px;
+}
+.news h3 {
+ color: #fff;
+font-size: 20px;
+line-height: 21px;
+text-align: left;
+font-weight: 500;
+padding-bottom: 20px;
+}
+
+.footer .address h3 {
+  color: #fff;
+font-size: 30px;
+line-height: 35px;
+font-weight: 500;
+padding-bottom: 20px;
+}
+.location_section {
+  background-color: #fff;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 20px 35px;
+}
+
+.border_top {border-top: #ddd solid 1px;} 
+.news {
+  padding: 35px 0px 50px 0px;
+  max-width: 71%;
+  margin: 0 auto;
+}
+.news .newslatter {
+  padding: 0px 30px;
+  box-shadow: inherit;
+  border: inherit;
+  width: 70%;
+  font-size: 16px;
+ height: 52px;
+  text-transform: uppercase;
+}
+.submit {
+
+ height: 52px;
+ border: #0fb0d3 solid 1px;
+  background: #0fb0d3;
+  color: #fff;
+  margin-left: -5px;
+  font-weight: 500;
+  font-size: 16px;
+max-width: 191px;
+  width: 100%;
+   text-transform: uppercase;
+   transition: all 0.3s ease-in;
+}
+.submit:hover {
+  background: #ddd;
+  border: #ddd solid 1px;
+  color: #0fb0d3;
+  transition: all 0.3s ease-in;
+
+}
+
+ul.loca {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+
+
+ul.loca li {
+  color: #fcfbfb;
+ padding: 0px 30px;
+ font-size: 18px;
+
+}
+ul.loca li a {
+  padding-right: 16px;
+  color: #fcfbfb;
+  margin-top: 4px;
+}
+
+
+ul.social_link {
+ display: flex;
+justify-content: center;
+margin-top: 30px;
+flex-wrap: wrap;
+}
+ul.social_link li {
+ display: inline-block;
+  padding-right: 4px;
+  margin: 0px 4px;
+
+}
+
+ul.social_link li a  {
+  font-size: 24px;
+  color: #161616;
+  background: #0fb0d3;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 41px;
+  justify-content: center;
+}
+
+ul.social_link li a:hover {
+color: #fff;
+}
+
+.copyright {
+  padding: 23px 0px;
+  margin-top: 55px;
+  border-top: #ddd solid 1px;
+}
+.copyright p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+
+}
+.copyright a {
+  color: #fff;
+}
+.copyright a:hover {
+  color: #0fb0d3 ;
+}
+/** end footer **/
+
+.contineer_page .header {background: #656565; padding-bottom: 27px;     position: inherit;}
+
+.backgro_mh {background: #0ed1f0; }
+.heding h2 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+  padding: 45px 0;
+  text-align: center;
+}
