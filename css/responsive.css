@@ -1,0 +1,17 @@
+/* For Tablet*/
+@media all and (max-width: 1000px){
+  /*Produk (rafif) start*/
+  .products{
+    width: 50%;
+  }
+  /* Produk (rafif) End */
+}
+/* For Smartphones */
+@media all and (max-width: 670px){
+  /*Produk (rafif) start*/
+  .products{
+    width: 100%;
+    display: block;
+  }
+  /* Produk (rafif) End */
+}
